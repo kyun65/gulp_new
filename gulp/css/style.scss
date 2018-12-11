@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+//フッター部分記述
+@import "./footer.scss";
+
+
+/* **************************
+  headder
+************************** */
+.hdr_wrap {
+  background: #FAE4FF;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+
+  .hdr_inr {
+    color: #000;
+
+  .hdr_logo {}
+    .hdr_menu {
+      .hdr_menu_inr {
+          .hdr_menu_tell {
+
+          }
+          .hdr_menu_contact {
+
+          }
+      }
+            .hdr_nav {
+                ul {
+                    li {
+                        color: #f00;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* **************************
+  ページトップへ
+************************** */
+#gototop {}
+
+
+/* **************************
+  メインビジュアル
+************************** */
+#main_visual {
+background: #DAEBA8;
+height: 500px;
+}
+
+
+/* **************************
+  トップページ内コンテンツ
+************************** */
+#contents {
+background: #5F7F40;
+    .cont_inr {
+
+        /* h2 */
+        .cont__ttl {
+
+        }
+
+        /* trouble_list */
+        .cont_trouble_wrap {
+            .cont_trouble_list {
+                .cont_trouble_item {
+                    /* h3 */
+                    .cont_trouble_ttl {
+                        color: #f00;
+                    }
+                    ul {
+                        li {
+
+                        }
+                    }
+                    p {
+
+                    }
+                    a {
+
+                    }
+                }
+            }
+        }
+
+        /* cont_2column */
+        .cont_2column {
+            .cont_2column_inr {
+                .cont_2column_left {
+                    .cont_2column_left_reason_wrap {
+                        .cont__left_ttl {
+
+                        }
+                        .cont_2column_left_reason_inr {
+                            .cont_2column_left_reason_list {
+                                .cont_2column_left_reason_item {
+                                    .cont_2column_left_reason_ttl {
+
+                                    }
+                                    .cont_2column_left_reason_img_area {
+                                        .cont_trouble_img {
+
+                                        }
+                                        p {
+
+                                        }
+                                    }
+
+                                }
+
+                            }
+                        }
+                    }
+                }
+                .cont_2column_right {}
+            }
+        }
+    }
+}
+
+
+
+/* **************************
+  SP
+************************** */
+@media screen and (max-width: 768px) {
+    body {
+        background: #000;
+    }
+}

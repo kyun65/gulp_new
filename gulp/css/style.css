@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* **************************
+  footer
+************************** */
+footer {
+  background: #ccc;
+}
+
+/* **************************
+  SP
+************************** */
+@media screen and (max-width: 768px) {
+  footer {
+    background: #000;
+  }
+}
+
+/* **************************
+  headder
+************************** */
+.hdr_wrap {
+  background: #FAE4FF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.hdr_wrap .hdr_inr {
+  color: #000;
+}
+
+.hdr_wrap .hdr_inr .hdr_menu .hdr_nav ul li {
+  color: #f00;
+}
+
+/* **************************
+  ページトップへ
+************************** */
+/* **************************
+  メインビジュアル
+************************** */
+#main_visual {
+  background: #DAEBA8;
+  height: 500px;
+}
+
+/* **************************
+  トップページ内コンテンツ
+************************** */
+#contents {
+  background: #5F7F40;
+}
+
+#contents .cont_inr {
+  /* h2 */
+  /* trouble_list */
+  /* cont_2column */
+}
+
+#contents .cont_inr .cont_trouble_wrap .cont_trouble_list .cont_trouble_item {
+  /* h3 */
+}
+
+#contents .cont_inr .cont_trouble_wrap .cont_trouble_list .cont_trouble_item .cont_trouble_ttl {
+  color: #f00;
+}
+
+/* **************************
+  SP
+************************** */
+@media screen and (max-width: 768px) {
+  body {
+    background: #000;
+  }
+}

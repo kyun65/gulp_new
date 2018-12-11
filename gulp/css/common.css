@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+	font-family: Lato, "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #000;
+	font-size: 19px;
+	line-height: 1.7;
+	-webkit-text-size-adjust: 100%;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #919191;
+	text-decoration: none;
+}
